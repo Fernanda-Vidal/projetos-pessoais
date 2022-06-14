@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2C4D42;
+}
+
+header{
+    text-align: center;
+    padding: 2%;
+}
+
+#display{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 3%;
+    max-width: 95%;
+    height: 100PX;
+    background-color:#303030;
+    border-radius: 2%;
+    /* padding: 2%; */
+}
+
+h3{
+    color: red;
+    padding-inline: 20px;
+}
+
+h2 {
+    padding: 5%;
+}
+
+#container{
+    /* border: #46C172 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 500px;
+    font-size: 100px;
+    color: green;
+    background-color:#303030;
+    border-radius: 1%;
+}
+
+.squadTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33.3%;
+    width: 33.3%;
+    font-size: 80px;
+}
+
+#playerO {
+    font-size: 80px;
+}
+
+#playerX {
+    font-size: 80px;
+}
+
+button {
+    background-color: #46C172;
+    border-radius: 5%;
+    border: none;
+    font-weight: bold;
+    height: 40px;
+    width: 200px;
+    margin: 30px;
+}
+
+#div0 {
+    border-right: 5px solid #2C4D42;
+    border-bottom: 5px solid #2C4D42;
+    width: 33.3%;
+    height: 33.3%;
+}
+
+#div1 {
+    border-right: 5px solid #2C4D42;
+    border-left: 5px solid #2C4D42;
+    border-bottom: 5px solid #2C4D42;
+    width: 33.3%;
+    height: 33.3%;
+}
+
+#div2 {
+    border-bottom: 5px solid #2C4D42;
+    border-left: 5px solid #2C4D42;
+    width: 33.3%;
+    height: 33.3%;
+}
+
+#div3 {
+    border-right: 5px solid #2C4D42;
+    border-bottom: 5px solid #2C4D42;
+    border-top: 5px solid #2C4D42;
+    width: 33.3%;
+    height: 33.3%;
+}
+
+#div4 {
+    border-right: 5px solid #2C4D42;
+    border-bottom: 5px solid #2C4D42;
+    border-top: 5px solid #2C4D42;
+    border-left: 5px solid #2C4D42;
+    width: 33.3%;
+    height: 33.3%;
+}
+
+#div5 {
+    border-bottom: 5px solid #2C4D42;
+    border-left: 5px solid #2C4D42;
+    border-top: 5px solid #2C4D42;
+    width: 33.3%;
+    height: 33.3%;
+}
+
+#div6 {
+    border-right: 5px solid #2C4D42;
+    border-top: 5px solid #2C4D42;
+    width: 33.3%;
+    height: 33.3%;
+}
+
+#div7 {
+    border-right: 5px solid #2C4D42;
+    border-top: 5px solid #2C4D42;
+    border-left: 5px solid #2C4D42;
+    width: 33.3%;
+    height: 33.3%;
+}
+
+#div8 {
+    border-left: 5px solid #2C4D42;
+    border-top: 5px solid #2C4D42; 
+    width: 33.3%;
+    height: 33.3%;
+}

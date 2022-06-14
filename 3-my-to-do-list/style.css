@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10px;
+    color: white;
+    border-radius: 5%;
+}
+
+.container{
+    background-color: cadetblue;
+    border-radius: 5%;
+    height: 500px;
+    width: 300px;
+
+}
+
+#header {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+
+.button {
+    height: 20px;
+    width: 70px;
+}
+
+#inputDiv{
+    width: 100%;
+    height: 10px;
+}
+
+#taskDiv{
+    margin: 20px;
+    padding: 10px;
+    font-size: x-large;
+    width: 100%;
+    height: 400px;
+}
+
+.inputTask{
+    margin: 3px;
+    width: 152px;
+    height: 20px;
+}
